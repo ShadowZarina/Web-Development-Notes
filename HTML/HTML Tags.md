@@ -3,38 +3,38 @@
 ## 40 MOST IMPORTANT TAGS
 
 ### Document Structure & Metadata
-<!DOCTYPE html>: Not a tag, but a declaration that tells the browser the document is HTML5.
-<html>: The root element that wraps all other HTML content.
-<head>: Contains background information about the page, such as its title and links to styles.
-<title>: Sets the title displayed in the browser tab.
-<meta>: Provides metadata such as character encoding, page description, and keywords.
-<link>: Links external resources, most commonly CSS stylesheets.
-<style>: Used to define internal CSS directly within the HTML document.
-<script>: Used to embed or link to executable client-side scripts, like JavaScript.
-<body>: Contains all the visible content of the webpage, such as text and images. 
+- <!DOCTYPE html>: Not a tag, but a declaration that tells the browser the document is HTML5.
+- <html>: The root element that wraps all other HTML content.
+- <head>: Contains background information about the page, such as its title and links to styles.
+- <title>: Sets the title displayed in the browser tab.
+- <meta>: Provides metadata such as character encoding, page description, and keywords.
+- <link>: Links external resources, most commonly CSS stylesheets.
+- <style>: Define internal CSS directly within the HTML document.
+- <script>: Embed or link to executable client-side scripts, like JavaScript.
+- <body>: Contains all the visible content of the webpage, such as text and images. 
 
 ### Text Formatting & Content
-<h1> to <h6>: Define hierarchical headings.
-<p>: Defines a paragraph.
-<a>: Creates hyperlinks.
-<img>: Embeds images.
-<strong> / <em>: Define bold or emphasized text.
-<div> / <span>: Block or inline containers for styling.
-<br> / <hr>: Line breaks or thematic breaks.
-<blockquote> / <code> / <pre>: Quotations and code formatting. 
+- <h1> to <h6>: Define hierarchical headings.
+- <p>: Defines a paragraph.
+- <a>: Creates hyperlinks.
+- <img>: Embeds images.
+- <strong> / <em>: Define bold or emphasized text.
+- <div> / <span>: Block or inline containers for styling.
+- <br> / <hr>: Line breaks or thematic breaks.
+- <blockquote> / <code> / <pre>: Quotations and code formatting. 
 
 ### Lists & Tables
-<ul> / <ol> / <li>: Unordered, ordered, and list items.
-<table>, <tr>, <th>, <td>: Defines structured data tables. 
+- <ul> / <ol> / <li>: Unordered, ordered, and list items.
+- <table>, <tr>, <th>, <td>: Defines structured data tables. 
 
 ### Forms & Interactivity
-<form>: Container for user input.
-<input> / <label> / <button>: Essential form controls and labels.
-<select> / <option> / <textarea>: Dropdown lists and text areas. 
+- <form>: Container for user input.
+- <input> / <label> / <button>: Essential form controls and labels.
+- <select> / <option> / <textarea>: Dropdown lists and text areas. 
 
 ### Semantic Layout Elements
-<header> / <nav> / <main> / <footer>: Defines major page sections like navigation and footers.
-<section>: Represents a thematic section.
+- <header> / <nav> / <main> / <footer>: Defines major page sections like navigation and footers.
+- <section>: Represents a thematic section.
 
 
 ## MISCELLANEOUS TAGS (MUST NOTE!)
