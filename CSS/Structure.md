@@ -76,14 +76,28 @@ color: red; -> declaration
 
 ## TEXT
 - font-family: choosing typefaces
+  = Serif, Sans-serif, Monospace
 - font-size: units include (px, em, rem)
-- font-weight & font-style:
+- font-weight & font-style: for boldness and italicization respectively
 - spacing:
-- line-height:
-- letter-spacing:
-- text-align:
+  - line-height: vertical spacing between lines
+  - letter-spacing: space between characters
+  - text-align: alignment (left, right, center, justify)
 
 ## THE BOX MODEL
 Every element in CSS is a rectangular box
+- Content: text/images inside
+- Padding: transparent space INSIDE the border
+- Border: line surrounding padding AND content
+- Margin: transparent space OUTSIDE border to separate elements
 
+## STYLING LISTS, TABLES & FORMS
+- Lists
+  = remove bullets with list-style-type: none;
+  = use custom images
+- Tables
+  = use border-collapse: collapse; to prevent double borders
+  = add padding to cells for readability
+- Forms
+  = styling input, textarea, button to create clickable interfaces rather than default browser styles
 
