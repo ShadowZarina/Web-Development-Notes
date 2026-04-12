@@ -49,22 +49,27 @@ Styling the Nav
 - States: Visual cues for link, visited, hover & active states to provide user feedback
 
 # DATA ENTRY SELECTION (FORMS)
-- Use <form> to contain the form
-- Inputs: come in multiple types including:<br>
-  = Text Input -> short answers (name, email)<br>
-  = Textarea -> long answers (comments, messages)<br>
-  = Radio Buttons -> select one option from a list (gender, yes/no)<br>
-  = Checkboxes -> select multiple options (interests)<br>
-  = Dropdowns (<select>) -> select from a long list without taking up space<br>
-  -- indicated using `<input type="(insert type)" />`<br>
-- Labels -> tell the users what each field is for
+
+- Use `<form>` to contain the form
+
+- Inputs: come in multiple types including:
+  - Text Input → short answers (name, email)
+  - Textarea → long answers (comments, messages)
+  - Radio Buttons → select one option (gender, yes/no)
+  - Checkboxes → select multiple options (interests)
+  - Dropdowns (`<select>`) → select from a long list without taking up space
+
+- Inputs are created using:
+  `<input type="(insert type)" />`
+
+- Labels → tell the user what each field is for
 
 
 # PROMOTING YOUR WEBSITE
 
 - SEO = Search Engine Optimization
-- On-Page = using keywords in <title>, <h1>, and body text naturally
+- On-Page = using keywords in `<title>`, `<h1>`, and body text naturally
 - Alt Text = describing images for search engines (and blind users)
-- Analytics = using tools (eg. Google Analytics) to track who visits your site & what they look at
-- Meta Tags = providing descriptions in the <head> that appear in search results
+- Analytics = using tools (e.g. Google Analytics) to track who visits your site & what they look at
+- Meta Tags = providing descriptions in the `<head>` that appear in search results
 - Domain Names = choosing a memorable URL relevant to the brand
