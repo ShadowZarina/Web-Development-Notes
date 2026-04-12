@@ -12,7 +12,7 @@
   - diagram showing the hierarchy of pages and how they link (like a family tree for your site)
 
 # HTML TAGS & ELEMENTS
-- eg. <html>, <body>, <h1>, <p>
+- eg. `<html>, <body>, <h1>, <p>`
 - elements consisting of an opening tag, content, and closing tag
 
 
@@ -56,7 +56,7 @@ Styling the Nav
   = Radio Buttons -> select one option from a list (gender, yes/no)
   = Checkboxes -> select multiple options (interests)
   = Dropdowns (<select>) -> select from a long list without taking up space
-  -- indicated using <input type="(insert type)" />
+  -- indicated using `<input type="(insert type)" />`
 - Labels -> tell the users what each field is for
 
 
