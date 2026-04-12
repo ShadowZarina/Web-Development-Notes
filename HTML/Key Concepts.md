@@ -50,13 +50,13 @@ Styling the Nav
 
 # DATA ENTRY SELECTION (FORMS)
 - Use <form> to contain the form
-- Inputs: come in multiple types including:
-  = Text Input -> short answers (name, email)
-  = Textarea -> long answers (comments, messages)
-  = Radio Buttons -> select one option from a list (gender, yes/no)
-  = Checkboxes -> select multiple options (interests)
-  = Dropdowns (<select>) -> select from a long list without taking up space
-  -- indicated using `<input type="(insert type)" />`
+- Inputs: come in multiple types including:<br>
+  = Text Input -> short answers (name, email)<br>
+  = Textarea -> long answers (comments, messages)<br>
+  = Radio Buttons -> select one option from a list (gender, yes/no)<br>
+  = Checkboxes -> select multiple options (interests)<br>
+  = Dropdowns (<select>) -> select from a long list without taking up space<br>
+  -- indicated using `<input type="(insert type)" />`<br>
 - Labels -> tell the users what each field is for
 
 
