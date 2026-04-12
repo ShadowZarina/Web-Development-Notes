@@ -41,7 +41,7 @@ Fixed = putting actual coordinates/number of location
 # DESIGNING NAVIGATION
 
 Most Efficient Method
-- Use an unordered list <ul> of links <a>
+- Use an unordered list `<ul>` of links `<a>`
 
 Styling the Nav
 - Remove bullets (list-style-type: none;)
