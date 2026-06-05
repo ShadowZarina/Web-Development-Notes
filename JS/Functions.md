@@ -1,44 +1,95 @@
-# JAVASCRIPT OBJECTS - EXPLANATION
+# JAVASCRIPT FUNCTIONS 
 
-JavaScript objects are standalone entities used to store collections of related data and functionality as key-value pairs.
+A JavaScript function is a reusable block of code designed to perform a specific task. Instead of writing the same code multiple times, you wrap it in a function and call it whenever needed.In JavaScript, functions are first-class objects (or "first-class citizens"). 
 
-## Core Concepts
+This means they can be treated like any other variable: you can pass them as arguments to other functions, return them from functions, and assign them to variables.
 
-- Properties: Named values associated with an object (e.g., name: "John"). Keys are typically strings or symbols.
-- Methods: Functions stored as property values that allow the object to perform actions (e.g., greet: function() { ... }).
-- Mutability: Objects are reference types, meaning assigning an object to a new variable points to the same memory location rather than creating a copy.
+## Core Concepts: 
 
-## Creating Objects
+Definition vs. Invocation
+- Using a function requires two distinct steps: defining it and calling it.
 
-Object Literal: The most common and concise method using curly braces.
+Defining (Declaring):
+- You build the function, naming its inputs (parameters) and structuring its logic. Defining code does not run it.
+
+Calling (Invoking): 
+- You execute the code block by using the function's name followed by parentheses (). You pass actual values (arguments) inside the parentheses.
+
 ```
-const user = {
-  name: "Alice",
-  age: 25
-};
-```
-
-Constructor Function: Used for creating multiple instances of the same type.
-```
-function User(name) {
-  this.name = name;
+// 1. Defining the function with 'num' as a parameter
+function square(num) {
+  return num * num; // 'return' sends the result back
 }
 
-const bob = new User("Bob");
+// 2. Calling the function with '5' as an argument
+let result = square(5); 
+console.log(result); // Output: 25
 ```
-Object.create(): Creates a new object using an existing object as its prototype.
 
-## Basic Operations
+## EVENTS
 
-- Accessing: Use dot notation (obj.key) for standard identifiers or bracket notation (obj["key"]) for dynamic keys or those with spaces.
-- Adding/Modifying: Assign values directly using obj.newKey = value.
-- Deleting: Use the delete operator (e.g., delete obj.key).
-- Existence Check: Use the in operator (e.g., "key" in obj) to check if a property exists.
+### Mouse events:
 
-## Advanced Features
-- Prototypes: Nearly all objects inherit properties and methods from Object.prototype.
-- Iteration: Use for...in to loop over enumerable properties, or Object.keys() to get an array of keys.
-- Accessors: Getters and setters allow you to define computed properties.
+click – when the mouse clicks on an element (touchscreen devices generate it on a tap).
+contextmenu – when the mouse right-clicks on an element.
+mouseover / mouseout – when the mouse cursor comes over / leaves an element.
+mousedown / mouseup – when the mouse button is pressed / released over an element.
+mousemove – when the mouse is moved.
+
+### Keyboard events:
+
+keydown and keyup – when a keyboard key is pressed and released.
+
+### Form element events:
+
+submit – when the visitor submits a <form>.
+focus – when the visitor focuses on an element, e.g. on an <input>.
+Document events:
+
+DOMContentLoaded – when the HTML is loaded and processed, DOM is fully built.
+
+### CSS events:
+
+transitionend – when a CSS-animation finishes.
+There are many other events. We’ll get into more details of particular events in upcoming chapters.
+
+## Event handlers
+To react on events we can assign a handler – a function that runs in case of an event.
+
+Handlers are a way to run JavaScript code in case of user actions.
+
+There are several ways to assign a handler. Let’s see them, starting from the simplest one.
+
+## HTML-attribute
+A handler can be set in HTML with an attribute named on<event>.
+
+For instance, to assign a click handler for an input, we can use onclick, like here:
+```
+<input value="Click me" onclick="alert('Click!')" type="button">
+```
+On mouse click, the code inside onclick runs.
+
+Please note that inside onclick we use single quotes, because the attribute itself is in double quotes. If we forget that the code is inside the attribute and use double quotes inside, like this: onclick="alert("Click!")", then it won’t work right.
+
+An HTML-attribute is not a convenient place to write a lot of code, so we’d better create a JavaScript function and call it there.
+
+Here a click runs the function countRabbits():
+```
+<script>
+  function countRabbits() {
+    for(let i=1; i<=3; i++) {
+      alert("Rabbit number " + i);
+    }
+  }
+</script>
+```
+```
+<input type="button" onclick="countRabbits()" value="Count rabbits!">
+```
+
+As we know, HTML attribute names are not case-sensitive, so ONCLICK works as well as onClick and onCLICK… But usually attributes are lowercased: onclick.
+
 
 # REFERENCES
-[W3Schools JS Objects](https://www.w3schools.com/js/js_objects.asp)
+[MDN Web Docs - EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)<br>
+[JavaScript.info - Introduction to Events](https://javascript.info/introduction-browser-events)
