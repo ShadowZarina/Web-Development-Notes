@@ -51,6 +51,6 @@ For a list of all possible syntax in Tailwind CSS, check out [this link!](https:
 
 # REFERENCES
 
-[Tailwind CSS Website](https://tailwindcss.com/)
-[Tailwind CSS GitHub](https://github.com/tailwindlabs/tailwindcss)
+[Tailwind CSS Website](https://tailwindcss.com/)<br>
+[Tailwind CSS GitHub](https://github.com/tailwindlabs/tailwindcss)<br>
 [Tailwind CSS v4 for Beginners | Full Course 2026](https://www.youtube.com/watch?v=9I3JQ1q4IMk)
