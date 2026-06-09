@@ -63,18 +63,18 @@
 
 ## W3SCHOOLS RESOURCES
 
-[https://www.w3schools.com/TAGS/default.asp](HTML Element Reference in Alphabetical Order)
+[HTML Element Reference in Alphabetical Order](https://www.w3schools.com/TAGS/default.asp)<br>
 
-[https://www.w3schools.com/html/html_formatting.asp](Formatting Tags)
+[Formatting Tags](https://www.w3schools.com/html/html_formatting.asp)<br>
 
-[https://www.w3schools.com/html/html_links.asp](HTML Links)
+[HTML Links](https://www.w3schools.com/html/html_links.asp)<br>
 
-[https://www.w3schools.com/html/html_quotation_elements.asp](HTML Quotation Elements)
+[HTML Quotation Elements](https://www.w3schools.com/html/html_quotation_elements.asp)<br>
 
-[https://www.w3schools.com/html/html_head.asp](HTML Head Tags)
+[HTML Head Tags](https://www.w3schools.com/html/html_head.asp)
 
 ---
 
 ### SAMPLE PRACTICE CARDS:
 
-[https://wayground.com/join/game/U2FsdGVkX19aTpP1lZmHZKoZ%252BHIraoIfEP8Z6NWMAi%252FMerqrD5sCWp8VCVdlpLoXQ%252FGSLQi3hdDPJRz%252BdYR2BA%253D%253D?page=nps&page=summary](Wayground Link)
+[HTML Wayground Quiz](https://wayground.com/join/game/U2FsdGVkX19aTpP1lZmHZKoZ%252BHIraoIfEP8Z6NWMAi%252FMerqrD5sCWp8VCVdlpLoXQ%252FGSLQi3hdDPJRz%252BdYR2BA%253D%253D?page=nps&page=summary)
