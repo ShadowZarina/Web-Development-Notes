@@ -1,3 +1,7 @@
+# VARIABLES
+
+JavaScript variables are named containers used to store data values that can be manipulated and referenced throughout your code. Because JavaScript is a dynamically typed language, you do not need to explicitly declare the type of data a variable will hold; the runtime engine determines it automatically.
+
 # KEYWORDS
 
 In modern JavaScript, there are 3 main keywords (var, let, and const) to declare variables.
