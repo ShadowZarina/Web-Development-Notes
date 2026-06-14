@@ -44,6 +44,23 @@ In modern JavaScript, there are 3 main keywords (var, let, and const) to declare
 2. Use let only if you need to change the value.
 3. Avoid var unless you are maintaining legacy codebases
 
+## Code Examples
+```
+// 1. Use const by default for values that won't be reassigned
+const pi = 3.14159;
+const userSettings = { theme: "dark" }; 
+
+// Note: You can mutate properties of a const object or array, but cannot reassign the variable itself.
+userSettings.theme = "light"; // Works perfectly!
+
+// 2. Use let for variables that need to change over time
+let score = 0;
+score = score + 10; // Value is successfully updated
+
+// 3. Avoid var in modern code bases due to its lack of block scoping
+var oldWay = "Hello"; 
+```
+
 # REFERENCES
 
 [Introduction to JavaScript](https://www.w3schools.com/js/js_intro.asp)
