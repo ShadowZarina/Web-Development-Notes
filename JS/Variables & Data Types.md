@@ -60,7 +60,68 @@ score = score + 10; // Value is successfully updated
 // 3. Avoid var in modern code bases due to its lack of block scoping
 var oldWay = "Hello"; 
 ```
+# DATA TYPES
+
+JavaScript features eight built-in data types, split into seven primitive types (immutable, single values) and one non-primitive type (mutable, collections of data). Because JavaScript is a dynamically typed language, variables are not bound to any specific type and can change dynamically during runtime.
+
+## Primitive Data Types
+Primitive values are immutable, meaning the value itself cannot be altered once created.
+1. String: Used to store textual data. You can write them using single quotes, double quotes, or backticks. JavaScript treats a single character as a string because it has no separate character type.
+2. Number: Represents both integer and fractional numbers. It also includes special numeric values: Infinity, -Infinity, and NaN (Not-a-Number).
+3. BigInt: Created by appending n to the end of an integer. It is used when you need to safely store whole numbers beyond the safe integer limit of the Number type (±(2⁵³ - 1)).
+4. Boolean: Has only two values: true and false. They are primarily utilized for conditional calculations and comparisons.
+5. Undefined: A variable that is declared but not initialized automatically holds the value undefined.
+6. Null: Unlike undefined, null represents a deliberate and intentional empty value assigned by a developer.
+7. Symbol: Used to generate completely unique keys for object properties. Even if you create two symbols with the same description, they will never equal one another.
+
+## Non-Primitive (Reference) Data Types
+
+Non-primitive types are mutable and can represent highly complex data structures. They are stored by reference rather than directly in memory.
+
+1. Object: The foundation of complex structures in JavaScript. Objects store data in keyed collections.
+2. Array: Technically a subtype of the Object data type. Arrays store ordered lists of data, which can consist of mixed data types.
+3. Function: Also a specialized subtype of Object. Functions can be treated like any other variable, meaning you can pass them as arguments to other blocks of code.
+   
+```
+// Number
+let length = 16;
+let weight = 7.5;
+
+// BigInt
+let x = 1234567890123456789012345n;
+let y = BigInt(1234567890123456789012345)
+// Strings
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Boolean
+let x = true;
+let y = false;
+
+// Undefined
+let x;
+let y;
+
+// Null
+let x = null;
+let y = null;
+
+// Symbol
+const x = Symbol();
+const y = Symbol();
+
+// Object
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array Object
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date Object
+const date = new Date("2022-03-25");
+```
 
 # REFERENCES
 
 [Introduction to JavaScript](https://www.w3schools.com/js/js_intro.asp)
+[JavaScript Variables](https://www.w3schools.com/js/js_variables.asp)
+[JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
